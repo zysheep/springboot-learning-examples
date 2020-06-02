@@ -1,0 +1,16 @@
+###ThymeLeaf配置
+spring:
+  thymeleaf:
+    cache: false # 开发时关闭缓存,不然没法看到实时页面
+    #模板的模式，支持 HTML, XML TEXT JAVASCRIPT
+    mode: HTML5 # 用非严格的 HTML
+    #编码 可不用配置
+    encoding: UTF-8
+    #内容类别,可不用配置
+    servlet:
+      content-type: text/html
+
+
+#Tomcat 服务
+server:
+  port: 80

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springboot-01-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-02-banner/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-03-config-autoconfig/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-04-logging/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-05-web-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-web-restfulcrud/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-05-web-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-05-web-restfulcrud/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-data-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-data-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-data-mybatis-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-data-mybatis-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-data-mybatis-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-07-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-08-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-08-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-09-amqp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-09-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-data-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-10-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-10-elasticsearch-jd/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-11-mail-task/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-11-asynchronous-task/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-11-scheduler-task/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-12-security/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-12-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-13-fileupload/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-13-fastDFS/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-14-docker/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-15-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-16-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-17-springcloud/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-18-deploy/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-19-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-multi-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-data-multi-mongodb-2-2-x/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-data-multi-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-data-tkmybatis/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

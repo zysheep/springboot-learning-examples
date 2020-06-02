@@ -1,0 +1,35 @@
+
+# DataSource Config
+spring:
+  datasource:
+    #   数据源基本配置
+    url: jdbc:mysql://172.16.0.192:3306/mybatis
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialization-mode: always #表示始终都要执行初始化，2.x以上版本需要加上这行配置
+    schema:
+      - classpath:db/schema-h2.sql
+    type: com.alibaba.druid.pool.DruidDataSource
+    #   数据源其他配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    #   配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+    filters: stat,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+# Logger Config
+logging:
+  level:
+    cn.zysheep.springboot: debug

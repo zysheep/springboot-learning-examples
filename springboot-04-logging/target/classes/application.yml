@@ -1,0 +1,5 @@
+# 设置日志级别
+logging:
+  level:
+    cn:
+      zysheep: trace

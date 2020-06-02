@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/springboot-01-helloworld/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-02-banner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-03-config-autoconfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-04-logging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-05-web-jsp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-05-web-restfulcrud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-05-web-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data-jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data-mongodb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data-multi-mongodb-2-2-x/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data-multi-mongodb/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data-mybatis-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data-mybatis-plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data-mybatis-xml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data-tkmybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data-tkmybatis/src/main/java/cn/zysheep/springboot/entity/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data-tkmybatis/src/test/java/cn/zysheep/springboot/Springboot06DataTkmybatisApplicationTests.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-07-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-08-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-08-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-09-amqp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-09-rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-10-elasticsearch-jd/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-10-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-11-mail-task/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

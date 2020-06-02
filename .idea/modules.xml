@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-01-helloworld/springboot-01-helloworld.iml" filepath="$PROJECT_DIR$/springboot-01-helloworld/springboot-01-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-02-banner/springboot-02-banner.iml" filepath="$PROJECT_DIR$/springboot-02-banner/springboot-02-banner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-03-config-autoconfig/springboot-03-config-autoconfig.iml" filepath="$PROJECT_DIR$/springboot-03-config-autoconfig/springboot-03-config-autoconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-04-logging/springboot-04-logging.iml" filepath="$PROJECT_DIR$/springboot-04-logging/springboot-04-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-05-web-jsp/springboot-05-web-jsp.iml" filepath="$PROJECT_DIR$/springboot-05-web-jsp/springboot-05-web-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-05-web-restfulcrud/springboot-05-web-restfulcrud.iml" filepath="$PROJECT_DIR$/springboot-05-web-restfulcrud/springboot-05-web-restfulcrud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-05-web-thymeleaf/springboot-05-web-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-05-web-thymeleaf/springboot-05-web-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-data-jdbc/springboot-06-data-jdbc.iml" filepath="$PROJECT_DIR$/springboot-06-data-jdbc/springboot-06-data-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-data-mongodb/springboot-06-data-mongodb.iml" filepath="$PROJECT_DIR$/springboot-06-data-mongodb/springboot-06-data-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-data-multi-mongodb/springboot-06-data-multi-mongodb.iml" filepath="$PROJECT_DIR$/springboot-06-data-multi-mongodb/springboot-06-data-multi-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-data-multi-mongodb-2-2-x/springboot-06-data-multi-mongodb-2-2-x.iml" filepath="$PROJECT_DIR$/springboot-06-data-multi-mongodb-2-2-x/springboot-06-data-multi-mongodb-2-2-x.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-data-mybatis-annotation/springboot-06-data-mybatis-annotation.iml" filepath="$PROJECT_DIR$/springboot-06-data-mybatis-annotation/springboot-06-data-mybatis-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-data-mybatis-plus/springboot-06-data-mybatis-plus.iml" filepath="$PROJECT_DIR$/springboot-06-data-mybatis-plus/springboot-06-data-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-data-mybatis-xml/springboot-06-data-mybatis-xml.iml" filepath="$PROJECT_DIR$/springboot-06-data-mybatis-xml/springboot-06-data-mybatis-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-data-tkmybatis/springboot-06-data-tkmybatis.iml" filepath="$PROJECT_DIR$/springboot-06-data-tkmybatis/springboot-06-data-tkmybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-07-jpa/springboot-07-jpa.iml" filepath="$PROJECT_DIR$/springboot-07-jpa/springboot-07-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-08-cache/springboot-08-cache.iml" filepath="$PROJECT_DIR$/springboot-08-cache/springboot-08-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-08-redis/springboot-08-redis.iml" filepath="$PROJECT_DIR$/springboot-08-redis/springboot-08-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-09-amqp/springboot-09-amqp.iml" filepath="$PROJECT_DIR$/springboot-09-amqp/springboot-09-amqp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-09-rabbitmq/springboot-09-rabbitmq.iml" filepath="$PROJECT_DIR$/springboot-09-rabbitmq/springboot-09-rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-10-elasticsearch/springboot-10-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-10-elasticsearch/springboot-10-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-10-elasticsearch-jd/springboot-10-elasticsearch-jd.iml" filepath="$PROJECT_DIR$/springboot-10-elasticsearch-jd/springboot-10-elasticsearch-jd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-11-asynchronous-task/springboot-11-asynchronous-task.iml" filepath="$PROJECT_DIR$/springboot-11-asynchronous-task/springboot-11-asynchronous-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-11-mail-task/springboot-11-mail-task.iml" filepath="$PROJECT_DIR$/springboot-11-mail-task/springboot-11-mail-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-11-scheduler-task/springboot-11-scheduler-task.iml" filepath="$PROJECT_DIR$/springboot-11-scheduler-task/springboot-11-scheduler-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-12-security/springboot-12-security.iml" filepath="$PROJECT_DIR$/springboot-12-security/springboot-12-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-12-shiro/springboot-12-shiro.iml" filepath="$PROJECT_DIR$/springboot-12-shiro/springboot-12-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-13-fastDFS/springboot-13-fastDFS.iml" filepath="$PROJECT_DIR$/springboot-13-fastDFS/springboot-13-fastDFS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-13-fileupload/springboot-13-fileupload.iml" filepath="$PROJECT_DIR$/springboot-13-fileupload/springboot-13-fileupload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-14-docker/springboot-14-docker.iml" filepath="$PROJECT_DIR$/springboot-14-docker/springboot-14-docker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-15-swagger2/springboot-15-swagger2.iml" filepath="$PROJECT_DIR$/springboot-15-swagger2/springboot-15-swagger2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-16-dubbo/springboot-16-dubbo.iml" filepath="$PROJECT_DIR$/springboot-16-dubbo/springboot-16-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-17-springcloud/springboot-17-springcloud.iml" filepath="$PROJECT_DIR$/springboot-17-springcloud/springboot-17-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-18-deploy/springboot-18-deploy.iml" filepath="$PROJECT_DIR$/springboot-18-deploy/springboot-18-deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-19-actuator/springboot-19-actuator.iml" filepath="$PROJECT_DIR$/springboot-19-actuator/springboot-19-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot-learning-examples.iml" filepath="$PROJECT_DIR$/.idea/springboot-learning-examples.iml" />
+    </modules>
+  </component>
+</project>

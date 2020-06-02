@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.zysheep.springboot.mapper.EmployeeMapper">
+    <select id="getEmployeeById" resultType="cn.zysheep.springboot.entity.Employee">
+        select * from employee where id = #{id}
+    </select>
+
+    <insert id="insertEmployee" parameterType="cn.zysheep.springboot.entity.Employee">
+        insert into employee(lastName,email,gender,d_id) values (#{lastName},#{email},#{gender},#{dId})
+    </insert>
+</mapper>

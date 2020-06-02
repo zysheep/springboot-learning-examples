@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      host1: 172.16.0.192
+      host2: 172.16.0.192
+    dbName:
+      primaryDb: primary
+      secondaryDb: secondary

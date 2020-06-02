@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "mongodb",
+      "type": "cn.zysheep.springboot.config.props.MultipleMongoProperties",
+      "sourceType": "cn.zysheep.springboot.config.props.MultipleMongoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mongodb.primary",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceType": "cn.zysheep.springboot.config.props.MultipleMongoProperties"
+    },
+    {
+      "name": "mongodb.secondary",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceType": "cn.zysheep.springboot.config.props.MultipleMongoProperties"
+    }
+  ],
+  "hints": []
+}

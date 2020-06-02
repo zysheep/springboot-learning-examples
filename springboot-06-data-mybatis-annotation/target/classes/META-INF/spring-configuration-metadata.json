@@ -1,0 +1,12 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "cn.zysheep.springboot.config.DruidConfig",
+      "sourceMethod": "druid()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
