@@ -5,9 +5,8 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
-    initialization-mode: embedded #表示始终都要执行初始化，2.x以上版本需要加上这行配置
+    initialization-mode: always #表示始终都要执行初始化，2.x以上版本需要加上这行配置
     schema:
-      - classpath:sql/employee.sql
       - classpath:sql/department.sql
     type: com.alibaba.druid.pool.DruidDataSource
     #   数据源其他配置
