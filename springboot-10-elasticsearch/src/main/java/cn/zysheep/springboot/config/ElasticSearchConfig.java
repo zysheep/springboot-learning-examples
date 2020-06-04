@@ -4,6 +4,7 @@ import org.apache.http.HttpHost;
 import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 /**
  * @version v1.0.0
@@ -11,6 +12,8 @@ import org.springframework.context.annotation.Bean;
  * @ClassName: ElasticSearchConfig
  * @Author: 三月三
  */
+
+@Configuration
 public class ElasticSearchConfig {
     @Bean
     public RestHighLevelClient restHighLevelClient() {
