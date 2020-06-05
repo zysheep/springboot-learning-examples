@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<h1>首页</h1>
+<span th:text="${msg}">小明</span>
+<a th:href="@{/logout}">注销</a>
+<hr/>
+
+<a th:href="@{/user/add}">add</a>  |  <a th:href="@{/user/update}">update</a>
+
+</body>
+</html>
