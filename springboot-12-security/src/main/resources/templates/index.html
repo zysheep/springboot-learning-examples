@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap 实例 - 一个简单的网页</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .fakeimg {
+            height: 200px;
+            background: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <h1>Spring Security Hello Wrold</h1>
+    <p>B:三月三</p>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <div class="panel panel-danger">
+        <div class="panel-heading">
+            <h3 class="panel-title">Spring Security Hello Wrold</h3>
+        </div>
+        <!--登录注销-->
+        <div class="panel-body">
+            <div class="btn-group btn-group-lg">
+                <button type="button" class="btn btn-default"><a th:href="@{/index}"> 首页</a></button>
+            </div>
+
+            <div class="btn-group btn-group-lg" sec:authorize="!isAuthenticated()">
+                <!--如果未登录-->
+                <button type="button" class="btn btn-default"><a th:href="@{/tologin}">登入</a></button>
+            </div>
+
+
+            <!--如果已登录-->
+            <div sec:authorize="isAuthenticated()">
+                用户名：<span sec:authentication="principal.username"></span>
+                角色：<span sec:authentication="principal.authorities"></span>
+            </div>
+
+
+            <!--如果已登录-->
+            <div class="btn-group btn-group-lg" sec:authorize="isAuthenticated()">
+                <button type="button" class="btn btn-default"><a th:href="@{/logout}">注销</a></button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <!--动态菜单的实现:根据用户权限显示不同菜单-->
+        <div class="col-sm-4" sec:authorize="hasRole('vip1')">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a th:href="@{/level1/1}"><i class="bullhorn icon"></i> Level-1-1</a></li>
+                <li><a th:href="@{/level1/2}"><i class="bullhorn icon"></i> Level-1-2</a></li>
+                <li><a th:href="@{/level1/3}"><i class="bullhorn icon"></i> Level-1-3</a></li>
+            </ul>
+            <hr class="hidden-sm hidden-md hidden-lg">
+        </div>
+        <div class="col-sm-4" sec:authorize="hasRole('vip2')">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a th:href="@{/level2/1}"><i class="bullhorn icon"></i> Level-2-1</a></li>
+                <li><a th:href="@{/level2/2}"><i class="bullhorn icon"></i> Level-2-2</a></li>
+                <li><a th:href="@{/level2/3}"><i class="bullhorn icon"></i> Level-2-3</a></li>
+            </ul>
+            <hr class="hidden-sm hidden-md hidden-lg">
+        </div>
+        <div class="col-sm-4" sec:authorize="hasRole('vip3')">
+            <ul class="nav nav-pills nav-stacked">
+                <li class="active"><a th:href="@{/level3/1}"><i class="bullhorn icon"></i> Level-3-1</a></li>
+                <li><a th:href="@{/level3/2}"><i class="bullhorn icon"></i> Level-3-2</a></li>
+                <li><a th:href="@{/level3/3}"><i class="bullhorn icon"></i> Level-3-3</a></li>
+            </ul>
+            <hr class="hidden-sm hidden-md hidden-lg">
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <p>Copyright © 2029-2020 三月三</p>
+</div>
+
+</body>
+</html>
