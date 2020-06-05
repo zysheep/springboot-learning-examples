@@ -1,0 +1,5 @@
+spring:
+  mail:
+    username:  #发件人邮箱账号  如:xxxx@qq.com
+    password: #发件人邮箱授权码  如:wjqeqdasfhxsas
+    host: smtp.qq.com

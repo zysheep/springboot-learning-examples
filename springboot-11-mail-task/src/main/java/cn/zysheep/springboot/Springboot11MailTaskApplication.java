@@ -11,8 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
-public class Springboot11MailTask {
+public class Springboot11MailTaskApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Springboot11MailTask.class,args);
+        SpringApplication.run(Springboot11MailTaskApplication.class,args);
     }
 }
