@@ -1,0 +1,16 @@
+# 配置在配置文件中以 info 开头的配置信息,可以http://localhost:8080/actuator/info被访问到
+info:
+  app:
+    name: springboot-19-actuator
+    version: 1.0.0
+    test: test
+# 可以打开所有的监控点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  # 查看详细的应用健康信息需要配置
+  endpoint:
+    health:
+      show-details: always
