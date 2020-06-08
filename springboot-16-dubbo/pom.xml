@@ -3,10 +3,69 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.2.RELEASE</version>
+        <relativePath/>
+    </parent>
 
     <groupId>cn.zysheep</groupId>
     <artifactId>springboot-16-dubbo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>api</module>
+        <module>provider</module>
+        <module>consumer</module>
+    </modules>
+    <!--统一管理依赖版本-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <dubbo.version>2.7.5</dubbo.version>
+        <curator.version>4.2.0</curator.version>
+        <!-- 连接zookeeper的依赖，我的zookeeper版本是3.4.14，感觉这个jar版本和zookeeper是大概保持一致的，但是引入3.4.14会报错，我试了下，从3.4.13开始就不行了 -->
+        <zookeeper.version>3.4.12</zookeeper.version>
+    </properties>
 
+    <!--依赖定义-->
+    <!--dependencyManagement 定义依赖版本号。子工程直接加依赖即可，不需要再次加版本号，便于统一维护版本号-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
+            <!-- zookeeper的api管理依赖 -->
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-recipes</artifactId>
+                <version>${curator.version}</version>
+            </dependency>
+            <!-- zookeeper依赖 -->
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${zookeeper.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <!-- 使用该依赖，idea需要安装插件，没有用过的自行百度一下吧 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
 </project>

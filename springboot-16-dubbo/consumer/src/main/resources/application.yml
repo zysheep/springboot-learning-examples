@@ -1,0 +1,11 @@
+# 端口
+server:
+  port: 8081
+dubbo:
+  application:
+    name: user-consumer
+  protocol:
+    name: dubbo
+    port: 20880
+  registry:
+    address: zookeeper://172.16.0.192:2181

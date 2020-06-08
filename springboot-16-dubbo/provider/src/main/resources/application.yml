@@ -1,0 +1,12 @@
+dubbo:
+  application:
+    # 应用名称
+    name: user-provider
+  protocol:
+    # 协议名称
+    name: dubbo
+    # 协议端口
+    port: 20880
+  registry:
+    # 注册中心地址
+    address: zookeeper://172.16.0.192:2181
