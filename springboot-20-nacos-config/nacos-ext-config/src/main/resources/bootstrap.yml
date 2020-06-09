@@ -1,0 +1,25 @@
+# ext-config扩展配置
+spring:
+  application:
+    name: nacos-ext-config
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848 # 配置中心地址
+        file-extension: yaml
+        namespace: fbbcbf8a-5d5f-45fc-9074-9b96677c1adb  # 开发环境dev
+        group: DEFAULT_GROUP
+        # config external configuration
+        # Data Id
+        # group：组名
+        #refresh：动态刷新
+        ext-config[0]:
+          data-id: ext-config-common01.yaml
+          group: COMMON_GROUP
+          refresh: true
+        ext-config[1]:
+          data-id: ext-config-common02.yaml
+          group: COMMON_GROUP
+          refresh: true
+        # 其中 n 的值越大，优先级越高。 通过内部相关规则(应用名、扩展名 )自动生成相关的 Data Id 配置的优先级最大。
+        # 相同的配置优先级大的会覆盖低优先级的配置,没有,就会互补配置

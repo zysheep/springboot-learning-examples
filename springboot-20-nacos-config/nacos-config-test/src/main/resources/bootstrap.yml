@@ -1,0 +1,11 @@
+
+
+spring:
+  application:
+    name: nacos-config-test
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848 # 配置中心地址
+        file-extension: yaml    # application.name和file-extension拼装成Data ID
+        group: DEFAULT_GROUP
