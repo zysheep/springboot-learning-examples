@@ -20,7 +20,6 @@
 
     <!--依赖定义-->
     <!--dependencyManagement 定义依赖版本号。子工程直接加依赖即可，不需要再次加版本号，便于统一维护版本号-->
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -39,11 +38,13 @@
                 <scope>runtime</scope>
             </dependency>
 
-            <!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-discovery -->
+            <!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-alibaba-dependencies -->
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
-                <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
                 <version>2.1.0.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
 
         </dependencies>
