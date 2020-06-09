@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>nacos-restful-provider</module>
-        <module>nacos-restful-consumer</module>
+        <module>restful-provider</module>
+        <module>restful-consumer</module>
     </modules>
 
     <groupId>cn.zysheep</groupId>
-    <artifactId>springboot-20-nacos</artifactId>
+    <artifactId>springboot-20-restful</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <!--统一管理依赖版本-->
