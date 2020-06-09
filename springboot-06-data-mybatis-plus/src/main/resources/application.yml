@@ -29,7 +29,10 @@ spring:
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
 
+
+
 # Logger Config
 logging:
   level:
     cn.zysheep.springboot: debug
+
