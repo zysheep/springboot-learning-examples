@@ -1,0 +1,38 @@
+server:
+  port: 80
+
+
+
+# fastDFS 配置
+fdfs:
+  addr: 192.168.40.142
+  # 连接超时
+  connect-timeout: 60
+  # 读取时间
+  so-timeout: 15000
+  # 生成缩略图参数
+  thumb-image:
+    width: 150
+    height: 150
+  # 支持配置多个
+  tracker-list:
+    - 192.168.40.142:22122
+
+
+
+spring:
+  application:
+    name: FastDFS-Test
+  servlet:
+    multipart:
+      max-file-size: 100MB # 最大支持文件大小
+      max-request-size: 100MB # 最大支持请求大小
+  thymeleaf:
+    cache: false # 开发时关闭缓存,不然没法看到实时页面
+    #模板的模式，支持 HTML, XML TEXT JAVASCRIPT
+    mode: HTML5 # 用非严格的 HTML
+    #编码 可不用配置
+    encoding: UTF-8
+    #内容类别,可不用配置
+    servlet:
+      content-type: text/html

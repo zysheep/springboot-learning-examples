@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8"/>
+    <title>fileUpload page</title>
+
+    <!-- 引入样式 -->
+    <link rel="stylesheet" th:href="@{https://unpkg.com/element-ui/lib/theme-chalk/index.css}">
+</head>
+<body>
+<div id="app">
+
+    <!--    <el-button @click="visible = true">Button</el-button>-->
+    <!--    <el-dialog :visible.sync="visible" title="Hello world">-->
+    <!--        <p>Try Element</p>-->
+    <!--    </el-dialog>-->
+
+
+    <!--    <span>{{message}}</span>-->
+
+    <!--    <h1 th:inlines="text">文件上传</h1>-->
+    <!--    <form action="/upload1" method="post" enctype="multipart/form-data">-->
+    <!--        <p>-->
+    <!--            选择文件: <input type="file" name="file"/>-->
+    <!--        </p>-->
+    <!--        <p>-->
+    <!--            <input type="submit" value="提交"/>-->
+    <!--        </p>-->
+    <!--    </form>-->
+
+
+    <!--    <img th:src="@{'http://'+${newImg}}">-->
+
+
+    <el-upload
+            action="/upload1"
+            list-type="picture-card"
+            :auto-upload="true" name="file">
+        <i slot="default" class="el-icon-plus"></i>
+        <div slot="file" slot-scope="{file}">
+            <img
+                    class="el-upload-list__item-thumbnail"
+                    :src="file.url" alt=""
+            >
+            <span class="el-upload-list__item-actions">
+        <span
+                class="el-upload-list__item-preview"
+                @click="handlePictureCardPreview(file)"
+        >
+          <i class="el-icon-zoom-in"></i>
+        </span>
+        <span
+                v-if="!disabled"
+                class="el-upload-list__item-delete"
+                @click="handleDownload(file)"
+        >
+          <i class="el-icon-download"></i>
+        </span>
+        <span
+                v-if="!disabled"
+                class="el-upload-list__item-delete"
+                @click="handleRemove(file)"
+        >
+          <i class="el-icon-delete"></i>
+        </span>
+      </span>
+        </div>
+    </el-upload>
+    <el-dialog :visible.sync="dialogVisible">
+        <img width="100%" :src="dialogImageUrl" alt="">
+    </el-dialog>
+</div>
+
+</body>
+<!-- import Vue before Element -->
+<script th:src="@{https://unpkg.com/vue/dist/vue.js}"></script>
+<!-- import JavaScript -->
+<script th:src="@{https://unpkg.com/element-ui/lib/index.js}"></script>
+<script th:src="@{https://unpkg.com/axios/dist/axios.min.js}"></script>
+<script>
+
+    new Vue({
+        el: "#app",
+        data() {
+            return {
+                dialogImageUrl: '',
+                dialogVisible: false,
+                disabled: false
+            };
+        },
+        methods: {
+            handleRemove(file) {
+                console.log(file);
+            },
+            handlePictureCardPreview(file) {
+                this.dialogImageUrl = file.url;
+                this.dialogVisible = true;
+                console.log(file.url);
+            },
+            handleDownload(file) {
+                // axios.get('/download?fileUrl='+file.response).then((res)=>{
+                    //     this.$notify({
+                    //         title: '成功',
+                    //         message: '下载成功!',
+                    //         type: 'success'
+                    //     });
+                    //     console.log(file.response);
+                    // }).catch((err)=>{
+                    //     this.$notify.error({
+                    //         title: '错误',
+                    //         message: '下载失败!'
+                    //     });
+                    // })
+                window.location.href="/download?fileUrl="+file.response;
+
+            }
+        }
+    })
+
+
+</script>
+</html>
