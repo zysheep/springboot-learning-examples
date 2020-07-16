@@ -8,11 +8,13 @@
     <file url="file://$PROJECT_DIR$/springboot-05-web-jsp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-05-web-restfulcrud/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-05-web-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data-h2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-data-jdbc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-data-mongodb/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-data-multi-mongodb-2-2-x/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-data-multi-mongodb/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-data-mybatis-annotation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-06-data-mybatis-plus-autogenerator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-data-mybatis-plus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-data-mybatis-xml/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-06-data-tkmybatis/src/main/java" charset="UTF-8" />
@@ -25,7 +27,43 @@
     <file url="file://$PROJECT_DIR$/springboot-09-rabbitmq/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-10-elasticsearch-jd/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-10-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-11-asynchronous-task/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-11-mail-task/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-11-scheduler-task/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-12-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-12-shiro/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-13-fastDFS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-13-fileupload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-14-docker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-15-swagger2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-16-dubbo/api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-16-dubbo/consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-16-dubbo/provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-17-springcloud/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-18-deploy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-19-actuator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-nacos-config/nacos-config-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-nacos-config/nacos-config-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-nacos-config/nacos-ext-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-nacos-config/nacos-ext-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-nacos-restful/nacos-restful-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-nacos-restful/nacos-restful-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-nacos-restful/nacos-restful-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-nacos-restful/nacos-restful-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-restful/restful-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-restful/restful-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-restful/restful-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-20-restful/restful-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos-dubbo-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos-dubbo-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service1/service1‐api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service1/service1‐api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service1/service1‐server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service1/service1‐server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service2/service2‐api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service2/service2‐api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service2/service2‐server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service2/service2‐server/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

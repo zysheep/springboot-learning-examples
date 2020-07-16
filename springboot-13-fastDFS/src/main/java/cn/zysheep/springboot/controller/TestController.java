@@ -5,6 +5,7 @@ import org.apache.commons.io.FilenameUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -88,5 +89,13 @@ public class TestController {
     @PostMapping(value = "/upload2")
     public String upload(MultipartFile file) throws Exception {
         return dfsUtils.uploadFile(file);
+    }
+
+
+    @GetMapping(value = "/testPromise")
+    @ResponseBody
+    public Integer testPromise() throws Exception {
+        Integer a= 1;
+        return a;
     }
 }

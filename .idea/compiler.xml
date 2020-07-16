@@ -7,44 +7,77 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-06-data-jdbc" />
+        <module name="springboot-06-data-mybatis-plus" />
         <module name="springboot-14-docker" />
         <module name="springboot-12-shiro" />
         <module name="springboot-12-security" />
+        <module name="service2‐api" />
         <module name="springboot-05-web-thymeleaf" />
         <module name="springboot-08-cache" />
-        <module name="springboot-10-elasticsearch-jd" />
-        <module name="springboot-06-data-mybatis-plus" />
-        <module name="springboot-01-helloworld" />
-        <module name="springboot-06-data-mybatis-annotation" />
         <module name="springboot-17-springcloud" />
+        <module name="springboot-05-web-restfulcrud" />
+        <module name="springboot-10-elasticsearch-jd" />
+        <module name="service1‐api" />
+        <module name="springboot-01-helloworld" />
+        <module name="consumer" />
+        <module name="service2‐server" />
+        <module name="springboot-10-elasticsearch" />
+        <module name="nacos-dubbo-consumer" />
+        <module name="springboot-06-data-mybatis-annotation" />
+        <module name="springboot-06-data-h2" />
+        <module name="nacos-restful-consumer" />
         <module name="springboot-06-data-mybatis-xml" />
+        <module name="springboot-05-web-jsp" />
         <module name="springboot-06-data-multi-mongodb-2-2-x" />
+        <module name="restful-provider" />
+        <module name="provider" />
         <module name="springboot-04-logging" />
         <module name="springboot-13-fastDFS" />
+        <module name="nacos-config-test" />
         <module name="springboot-06-data-mongodb" />
-        <module name="springboot-07-jpa" />
-        <module name="springboot-11-mail-task" />
+        <module name="service1‐server" />
+        <module name="restful-consumer" />
         <module name="springboot-11-scheduler-task" />
         <module name="springboot-09-amqp" />
         <module name="springboot-18-deploy" />
-        <module name="springboot-03-config-autoconfig" />
-        <module name="springboot-16-dubbo" />
-        <module name="springboot-05-web-restfulcrud" />
+        <module name="springboot-06-data-mybatis-plus-autogenerator" />
+        <module name="springboot-07-jpa" />
         <module name="springboot-06-data-multi-mongodb" />
         <module name="springboot-11-asynchronous-task" />
-        <module name="springboot-05-web-jsp" />
-        <module name="springboot-06-data-tkmybatis" />
+        <module name="springboot-06-data-jdbc" />
+        <module name="springboot-11-mail-task" />
         <module name="springboot-09-rabbitmq" />
+        <module name="api" />
+        <module name="springboot-03-config-autoconfig" />
         <module name="springboot-13-fileupload" />
         <module name="springboot-08-redis" />
         <module name="springboot-15-swagger2" />
         <module name="springboot-02-banner" />
+        <module name="springboot-06-data-tkmybatis" />
+        <module name="nacos-ext-config" />
         <module name="springboot-19-actuator" />
-        <module name="springboot-10-elasticsearch" />
+        <module name="nacos-restful-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api" target="1.8" />
+      <module name="consumer" target="1.8" />
+      <module name="consumer-user" target="1.8" />
+      <module name="nacos-config-test" target="1.5" />
+      <module name="nacos-dubbo-consumer" target="1.5" />
+      <module name="nacos-ext-config" target="1.5" />
+      <module name="nacos-restful-consumer" target="1.5" />
+      <module name="nacos-restful-provider" target="1.5" />
+      <module name="nacos‐dubbo‐service1" target="1.5" />
+      <module name="nacos‐dubbo‐service2" target="1.5" />
+      <module name="provider" target="1.8" />
+      <module name="provider-ticket" target="1.8" />
+      <module name="restful-consumer" target="1.5" />
+      <module name="restful-provider" target="1.5" />
+      <module name="service1‐api" target="1.5" />
+      <module name="service1‐server" target="1.5" />
+      <module name="service2‐api" target="1.5" />
+      <module name="service2‐server" target="1.5" />
       <module name="springboot-01-helloworld" target="1.8" />
       <module name="springboot-02-banner" target="1.8" />
       <module name="springboot-03-config-autoconfig" target="1.8" />
@@ -52,6 +85,7 @@
       <module name="springboot-05-web-jsp" target="1.8" />
       <module name="springboot-05-web-restfulcrud" target="1.8" />
       <module name="springboot-05-web-thymeleaf" target="1.8" />
+      <module name="springboot-06-data-h2" target="1.8" />
       <module name="springboot-06-data-jdbc" target="1.8" />
       <module name="springboot-06-data-mongodb" target="1.8" />
       <module name="springboot-06-data-multi-mongodb" target="1.8" />
@@ -59,6 +93,7 @@
       <module name="springboot-06-data-mybatis" target="1.8" />
       <module name="springboot-06-data-mybatis-annotation" target="1.8" />
       <module name="springboot-06-data-mybatis-plus" target="1.8" />
+      <module name="springboot-06-data-mybatis-plus-autogenerator" target="1.8" />
       <module name="springboot-06-data-mybatis-xml" target="1.8" />
       <module name="springboot-06-data-tkmybatis" target="1.8" />
       <module name="springboot-07-jpa" target="1.8" />
@@ -68,23 +103,34 @@
       <module name="springboot-09-rabbitmq" target="1.8" />
       <module name="springboot-10-elasticsearch" target="1.8" />
       <module name="springboot-10-elasticsearch-jd" target="1.8" />
-      <module name="springboot-11-asynchronous-task" target="1.5" />
+      <module name="springboot-11-asynchronous-task" target="1.8" />
       <module name="springboot-11-mail-task" target="1.8" />
-      <module name="springboot-11-scheduler-task" target="1.5" />
-      <module name="springboot-12-security" target="1.5" />
-      <module name="springboot-12-shiro" target="1.5" />
-      <module name="springboot-13-fastDFS" target="1.5" />
-      <module name="springboot-13-fileupload" target="1.5" />
-      <module name="springboot-14-docker" target="1.5" />
-      <module name="springboot-15-swagger2" target="1.5" />
-      <module name="springboot-16-dubbo" target="1.5" />
-      <module name="springboot-17-springcloud" target="1.5" />
-      <module name="springboot-18-deploy" target="1.5" />
-      <module name="springboot-19-actuator" target="1.5" />
+      <module name="springboot-11-scheduler-task" target="1.8" />
+      <module name="springboot-12-security" target="1.8" />
+      <module name="springboot-12-shiro" target="1.8" />
+      <module name="springboot-13-fastDFS" target="1.8" />
+      <module name="springboot-13-fileupload" target="1.8" />
+      <module name="springboot-14-docker" target="1.8" />
+      <module name="springboot-15-swagger2" target="1.8" />
+      <module name="springboot-16-dubbo" target="1.8" />
+      <module name="springboot-17-springcloud" target="1.8" />
+      <module name="springboot-18-deploy" target="1.8" />
+      <module name="springboot-19-actuator" target="1.8" />
+      <module name="springboot-20-nacos-config" target="1.5" />
+      <module name="springboot-20-nacos-restful" target="1.5" />
+      <module name="springboot-20-restful" target="1.5" />
+      <module name="springboot-21-nacos-dubbo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="consumer-user" options="-parameters" />
+      <module name="provider" options="-parameters" />
+      <module name="provider-ticket" options="-parameters" />
+      <module name="restful-consumer" options="" />
+      <module name="restful-provider" options="" />
       <module name="springboot-01-helloworld" options="-parameters" />
       <module name="springboot-02-banner" options="-parameters" />
       <module name="springboot-03-config-autoconfig" options="-parameters" />
@@ -92,6 +138,7 @@
       <module name="springboot-05-web-jsp" options="-parameters" />
       <module name="springboot-05-web-restfulcrud" options="-parameters" />
       <module name="springboot-05-web-thymeleaf" options="-parameters" />
+      <module name="springboot-06-data-h2" options="-parameters" />
       <module name="springboot-06-data-jdbc" options="-parameters" />
       <module name="springboot-06-data-mongodb" options="-parameters" />
       <module name="springboot-06-data-multi-mongodb" options="-parameters" />
@@ -108,7 +155,20 @@
       <module name="springboot-09-rabbitmq" options="-parameters" />
       <module name="springboot-10-elasticsearch" options="-parameters" />
       <module name="springboot-10-elasticsearch-jd" options="-parameters" />
+      <module name="springboot-11-asynchronous-task" options="-parameters" />
       <module name="springboot-11-mail-task" options="-parameters" />
+      <module name="springboot-11-scheduler-task" options="-parameters" />
+      <module name="springboot-12-security" options="-parameters" />
+      <module name="springboot-12-shiro" options="-parameters" />
+      <module name="springboot-13-fastDFS" options="-parameters" />
+      <module name="springboot-13-fileupload" options="-parameters" />
+      <module name="springboot-14-docker" options="-parameters" />
+      <module name="springboot-15-swagger2" options="-parameters" />
+      <module name="springboot-16-dubbo" options="" />
+      <module name="springboot-17-springcloud" options="-parameters" />
+      <module name="springboot-18-deploy" options="-parameters" />
+      <module name="springboot-19-actuator" options="-parameters" />
+      <module name="springboot-20-restful" options="-parameters" />
     </option>
   </component>
 </project>

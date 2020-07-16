@@ -10,6 +10,7 @@
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
           <factory-entry name="entityManagerFactory" />
+          <factory-entry name="springboot-07-jpa" value="63d315cd-add0-4bf7-b699-c9dbcb1d884a" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>

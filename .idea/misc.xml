@@ -36,7 +36,6 @@
         <option value="$PROJECT_DIR$/springboot-13-fastDFS/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-14-docker/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-15-swagger2/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-16-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-17-springcloud/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-18-deploy/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-19-actuator/pom.xml" />
@@ -44,6 +43,20 @@
         <option value="$PROJECT_DIR$/springboot-06-data-multi-mongodb-2-2-x/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-06-data-multi-mongodb/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-06-data-tkmybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-16-dubbo/provider-ticket/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-16-dubbo/consumer-user/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-16-dubbo/api/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-16-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-21-nacos-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-21-nacos-config/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-nacos-config/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-nacos-config/nacos-config-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-nacos-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-20-nacos-restful/nacos-restful-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-data-mybatis-plus-autogenerator/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-data-h2/pom.xml" />
       </list>
     </option>
   </component>

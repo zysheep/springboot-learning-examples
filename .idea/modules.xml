@@ -2,6 +2,22 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-16-dubbo/api/api.iml" filepath="$PROJECT_DIR$/springboot-16-dubbo/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-16-dubbo/consumer/consumer.iml" filepath="$PROJECT_DIR$/springboot-16-dubbo/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-20-nacos-config/nacos-config-test/nacos-config-test.iml" filepath="$PROJECT_DIR$/springboot-20-nacos-config/nacos-config-test/nacos-config-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos-dubbo-consumer/nacos-dubbo-consumer.iml" filepath="$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos-dubbo-consumer/nacos-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-20-nacos-config/nacos-ext-config/nacos-ext-config.iml" filepath="$PROJECT_DIR$/springboot-20-nacos-config/nacos-ext-config/nacos-ext-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-20-nacos-restful/nacos-restful-consumer/nacos-restful-consumer.iml" filepath="$PROJECT_DIR$/springboot-20-nacos-restful/nacos-restful-consumer/nacos-restful-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-20-nacos-restful/nacos-restful-provider/nacos-restful-provider.iml" filepath="$PROJECT_DIR$/springboot-20-nacos-restful/nacos-restful-provider/nacos-restful-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service1/nacos‐dubbo‐service1.iml" filepath="$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service1/nacos‐dubbo‐service1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service2/nacos‐dubbo‐service2.iml" filepath="$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service2/nacos‐dubbo‐service2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-16-dubbo/provider/provider.iml" filepath="$PROJECT_DIR$/springboot-16-dubbo/provider/provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-20-restful/restful-consumer/restful-consumer.iml" filepath="$PROJECT_DIR$/springboot-20-restful/restful-consumer/restful-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-20-restful/restful-provider/restful-provider.iml" filepath="$PROJECT_DIR$/springboot-20-restful/restful-provider/restful-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service1/service1‐api/service1‐api.iml" filepath="$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service1/service1‐api/service1‐api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service1/service1‐server/service1‐server.iml" filepath="$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service1/service1‐server/service1‐server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service2/service2‐api/service2‐api.iml" filepath="$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service2/service2‐api/service2‐api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service2/service2‐server/service2‐server.iml" filepath="$PROJECT_DIR$/springboot-21-nacos-dubbo/nacos‐dubbo‐service2/service2‐server/service2‐server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-01-helloworld/springboot-01-helloworld.iml" filepath="$PROJECT_DIR$/springboot-01-helloworld/springboot-01-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-02-banner/springboot-02-banner.iml" filepath="$PROJECT_DIR$/springboot-02-banner/springboot-02-banner.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-03-config-autoconfig/springboot-03-config-autoconfig.iml" filepath="$PROJECT_DIR$/springboot-03-config-autoconfig/springboot-03-config-autoconfig.iml" />
@@ -9,12 +25,14 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-05-web-jsp/springboot-05-web-jsp.iml" filepath="$PROJECT_DIR$/springboot-05-web-jsp/springboot-05-web-jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-05-web-restfulcrud/springboot-05-web-restfulcrud.iml" filepath="$PROJECT_DIR$/springboot-05-web-restfulcrud/springboot-05-web-restfulcrud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-05-web-thymeleaf/springboot-05-web-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-05-web-thymeleaf/springboot-05-web-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-data-h2/springboot-06-data-h2.iml" filepath="$PROJECT_DIR$/springboot-06-data-h2/springboot-06-data-h2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-data-jdbc/springboot-06-data-jdbc.iml" filepath="$PROJECT_DIR$/springboot-06-data-jdbc/springboot-06-data-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-data-mongodb/springboot-06-data-mongodb.iml" filepath="$PROJECT_DIR$/springboot-06-data-mongodb/springboot-06-data-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-data-multi-mongodb/springboot-06-data-multi-mongodb.iml" filepath="$PROJECT_DIR$/springboot-06-data-multi-mongodb/springboot-06-data-multi-mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-data-multi-mongodb-2-2-x/springboot-06-data-multi-mongodb-2-2-x.iml" filepath="$PROJECT_DIR$/springboot-06-data-multi-mongodb-2-2-x/springboot-06-data-multi-mongodb-2-2-x.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-data-mybatis-annotation/springboot-06-data-mybatis-annotation.iml" filepath="$PROJECT_DIR$/springboot-06-data-mybatis-annotation/springboot-06-data-mybatis-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-data-mybatis-plus/springboot-06-data-mybatis-plus.iml" filepath="$PROJECT_DIR$/springboot-06-data-mybatis-plus/springboot-06-data-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-06-data-mybatis-plus-autogenerator/springboot-06-data-mybatis-plus-autogenerator.iml" filepath="$PROJECT_DIR$/springboot-06-data-mybatis-plus-autogenerator/springboot-06-data-mybatis-plus-autogenerator.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-data-mybatis-xml/springboot-06-data-mybatis-xml.iml" filepath="$PROJECT_DIR$/springboot-06-data-mybatis-xml/springboot-06-data-mybatis-xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-06-data-tkmybatis/springboot-06-data-tkmybatis.iml" filepath="$PROJECT_DIR$/springboot-06-data-tkmybatis/springboot-06-data-tkmybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-07-jpa/springboot-07-jpa.iml" filepath="$PROJECT_DIR$/springboot-07-jpa/springboot-07-jpa.iml" />
@@ -37,6 +55,10 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-17-springcloud/springboot-17-springcloud.iml" filepath="$PROJECT_DIR$/springboot-17-springcloud/springboot-17-springcloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-18-deploy/springboot-18-deploy.iml" filepath="$PROJECT_DIR$/springboot-18-deploy/springboot-18-deploy.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-19-actuator/springboot-19-actuator.iml" filepath="$PROJECT_DIR$/springboot-19-actuator/springboot-19-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-20-nacos-config/springboot-20-nacos-config.iml" filepath="$PROJECT_DIR$/springboot-20-nacos-config/springboot-20-nacos-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-20-nacos-restful/springboot-20-nacos-restful.iml" filepath="$PROJECT_DIR$/springboot-20-nacos-restful/springboot-20-nacos-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-20-restful/springboot-20-restful.iml" filepath="$PROJECT_DIR$/springboot-20-restful/springboot-20-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-21-nacos-dubbo/springboot-21-nacos-dubbo.iml" filepath="$PROJECT_DIR$/springboot-21-nacos-dubbo/springboot-21-nacos-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot-learning-examples.iml" filepath="$PROJECT_DIR$/.idea/springboot-learning-examples.iml" />
     </modules>
   </component>

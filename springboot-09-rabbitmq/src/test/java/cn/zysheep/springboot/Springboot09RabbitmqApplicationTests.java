@@ -4,7 +4,6 @@ import cn.zysheep.springboot.entity.Book;
 import org.junit.jupiter.api.Test;
 import org.springframework.amqp.core.AmqpAdmin;
 import org.springframework.amqp.core.Binding;
-import org.springframework.amqp.core.DirectExchange;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,7 +33,8 @@ class Springboot09RabbitmqApplicationTests {
         //durable:是否持久化
 
         //创建绑定规则
-        amqpAdmin.declareBinding(new Binding("amqpadmin.queue", Binding.DestinationType.QUEUE, "amqpadmin.exchange", "amqp.haha", null));
+        amqpAdmin.declareBinding(
+                new Binding("amqpadmin.queue", Binding.DestinationType.QUEUE, "amqpadmin.exchange", "amqp.haha", null));
          //String destination:目的地
         // Binding.DestinationType destinationType:目的地类型
         // String exchange: 交换器
