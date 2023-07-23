@@ -27,7 +27,7 @@
         <dubbo.version>2.7.5</dubbo.version>
         <curator.version>4.2.0</curator.version>
         <!-- 连接zookeeper的依赖，我的zookeeper版本是3.4.14，感觉这个jar版本和zookeeper是大概保持一致的，但是引入3.4.14会报错，我试了下，从3.4.13开始就不行了 -->
-        <zookeeper.version>3.4.12</zookeeper.version>
+        <zookeeper.version>3.4.14</zookeeper.version>
     </properties>
 
     <!--依赖定义-->
